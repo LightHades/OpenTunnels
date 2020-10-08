@@ -34,13 +34,13 @@ while back == 1:
 		tcp = int(input('> Porta TCP: '))
 		yml = open('/root/.ngrok2/ngrok.yml', 'w')
 		yml.write('''authtoken: {}
-		tunnels:
-		  http:
-		    addr: {}
-		    proto: http
-		  tcp:
-		    addr: {}
-		    proto: tcp'''.format(auth, http, tcp))
+tunnels:
+  http:
+    addr: {}
+    proto: http
+  tcp:
+    addr: {}
+    proto: tcp'''.format(auth, http, tcp))
 		yml.close()
 		print('\n[+] <Tunnel alterado com sucesso>')
 		print('\033[31;7m\nPara utilizar, digite:\n\033[0m\033[31m\n./ngrok start --all\nOU\n./ngrok.py\033[0m')
