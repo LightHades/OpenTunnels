@@ -44,10 +44,12 @@ while back == 1:
 		yml.close()
 		print('\n[+] <Tunnel alterado com sucesso>')
 		print('\033[31;7m\nPara utilizar, digite:\n\033[0m\033[31m\n./ngrok start --all\nOU\n./ngrok.py\033[0m')
+		exit()
 	elif opt == 2:
 		sys('nano /root/.ngrok2/ngrok.yml')
 		print('\n[+] <Tunnel alterado com sucesso>')
 		print('\033[31;7m\nPara utilizar, digite:\n\033[0m\033[31m\n./ngrok start --all\nOU\n./ngrok.py\033[0m')
+		exit()
 	elif opt == 0:
 		print('\nAbortando...')
 		sleep(2)
