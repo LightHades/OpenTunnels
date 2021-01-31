@@ -1,2 +1,4 @@
 # OpenTunnels
-OpenTunnels é um script que automatiza as configurações de túneis do ngrok, permitindo que o usuário abra túneis de diferentes serviços na mesma sessão. (Inspirado no tunnelngrok, de Fellip Melo -> github.com/fellipmelo/tunnelngrok)
+OpenTunnels is a script that automates ngrok tunnel configurations, allowing the user to open tunnels for different services in the same session
+
+To make it work, execute 'tunnel.py', and then to use ngrok, type 'ngrok start --all', or execute 'ngrok.py'
